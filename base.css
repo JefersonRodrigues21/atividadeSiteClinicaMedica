@@ -46,6 +46,12 @@ img {
 .content p {
     text-align: justify;
 }
+table {
+    box-shadow: 17px 13px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 12px 5px 0px rgba(0, 0, 0, 0.75);
+    /*background-color: black;;*/
+    color: white;
+}
 .footer {
     background-color: white;
     min-height: 50px;
