@@ -39,18 +39,30 @@ img {
 }
 .content {
     background-color: rgb(117, 203, 230);
-    min-height: 100px;
-    padding: 13px;
+    min-height: 10px;
+    padding: 0px;
 }
 
 .content p {
     text-align: justify;
 }
+.sobre {
+    font-size: 25px;
+    margin: 30px;
+}
+.inicial {
+    padding: 15px;
+}
+.horario {
+    padding: 15px 15px 10px 15px;
+}
 table {
     box-shadow: 17px 13px 5px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 10px 12px 5px 0px rgba(0, 0, 0, 0.75);
     /*background-color: black;;*/
-    color: white;
+    color: red;
+    border: 2px solid black;
+    margin: 12px;
 }
 .footer {
     background-color: white;
@@ -59,4 +71,11 @@ table {
 .footer img {
     width: 30px;
     padding: 10px;
+}
+
+#wrapper {
+    padding: 0px;
+    margin: 0px;
+    width: 600px;
+    height: 130px;
 }
